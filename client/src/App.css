@@ -1,0 +1,136 @@
+body{
+  background: #000046 !important;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1CB5E0, #000046) !important;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1CB5E0, #000046) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navbar{
+  min-height: 10vh;
+}
+
+.logincontainer{
+  display: flex;
+  max-width: 600px !important;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  flex-direction: column;
+  padding-top: 10px;
+}
+
+.logincard{
+  background: rgba( 255, 255, 255, 0.50 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  padding: 50px;
+}
+
+.alert {
+  font-size: 1.6rem;
+  color: #fff;
+  position: fixed;
+  z-index: 1000;
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+.alertContainer{
+  display: flex;
+  justify-content: center;
+}
+.alert--success {
+  background-color: #28a745;
+}
+.alert--danger {
+  background-color: #dc3545;
+}
+
+.card-img-top{
+  height: 250px;
+  width: 100%;
+}
+
+.homecontainer{
+  padding: 20px;
+}
+
+.col{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  height: 100%;
+  width: 100%;
+  max-width: 18rem;
+  background: rgba( 255, 255, 255, 0.20 ) !important;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+}
+
+.card-body{
+  color: #fff;
+}
+
+.workshopcontainer{
+  background: rgba( 255, 255, 255, 0.20 ) !important;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+  min-height: 100vh;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+  color: #fff;
+}
+
+.workshopimg{
+  width: 100%;
+  max-width: 500px;
+  height: 50vh;
+  max-height: 500px;
+}
+
+.workshop-img-top{
+  width: 100%;
+  height: 100%;
+}
+
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.table-responsive{
+  background: rgba( 255, 255, 255, 0.20 ) !important;
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 ) !important;
+  border-radius: 10px !important;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+  width: 90%;
+  margin-top: 20px;
+}
+
+.table{
+  color: #fff !important;
+}
+
+.usertable{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addButton{
+  margin-bottom: 20px;
+}
